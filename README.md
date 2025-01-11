@@ -1,10 +1,10 @@
 # 42CC_libft
 
 ## Description
-Libft est une bibliothèque de fonctions en C recréées dans le cadre du cursus 42. Elle comprend des fonctions couramment utilisées dans la programmation en C, telles que des fonctions de manipulation de chaînes, de gestion de la mémoire, et de manipulation de listes chaînées.
+Libft is a library of C functions recreated as part of the 42 curriculum. It includes commonly used functions in C programming, such as string manipulation, memory management, and linked list manipulation functions.
 
-## Contenu
-La bibliothèque inclut les fonctions suivantes :
+## Content
+The library includes the following functions:
 
 1. `ft_atoi`
 2. `ft_isalnum`
@@ -52,16 +52,16 @@ La bibliothèque inclut les fonctions suivantes :
 44. `ft_lstnew`
 
 ## Compilation
-Pour compiler la bibliothèque, utilisez le `Makefile` fourni. Exécutez simplement la commande suivante dans le terminal :
+To compile the library, use the provided `Makefile`. Simply run the following command in the terminal:
 
 ```sh
 make
 ```
 
-Cela générera un fichier `libft.a` que vous pourrez lier à vos projets.
+This will generate a `libft.a` file that you can link to your projects.
 
-## Utilisation
-Incluez le fichier d'en-tête `libft.h` dans votre projet et liez la bibliothèque compilée lors de la compilation de votre projet.
+## Usage
+Include the `libft.h` header file in your project and link the compiled library when compiling your project.
 
 ```c
 #include "libft.h"
